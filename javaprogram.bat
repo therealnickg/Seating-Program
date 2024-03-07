@@ -3,7 +3,7 @@
 title Java Batch
 Rem echo Welcome to Java through Batch!
 
-cd C:\Users\capta\OneDrive\Documents\Night With Industry Seating
+cd /d %~dp0
 Rem cd
 javac SeatingArrangement.java
 javac Student.java
